@@ -1,0 +1,31 @@
+.zemin {
+    
+    background-color:#FFFFFF;
+    height:10000px;
+    width:10000px;
+}
+.logo {
+    top:60px;
+    left:130px;
+    position: absolute;
+}
+.screen {
+    top:260px;
+    left:900px;
+    position: absolute;
+}
+.welcome{
+	font-size:40px;
+	color:#1E266D;
+	left:270px;
+	top:335px;
+	position:absolute;
+}
+.login{
+    text-align: center;
+    position:absolute;
+    left: 270px;
+    top:700px;
+    width:400px;
+   
+}
