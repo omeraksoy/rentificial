@@ -1,0 +1,53 @@
+[1mdiff --git a/login.css b/login.css[m
+[1mindex f4f2b3a..372dcb9 100644[m
+[1m--- a/login.css[m
+[1m+++ b/login.css[m
+[36m@@ -21,12 +21,17 @@[m
+ 	top:335px;[m
+ 	position:absolute;[m
+ }[m
+[31m-.login{[m
+[31m-    text-align: center;[m
+[32m+[m[32m.btn-style{[m
+[32m+[m[32m    border: 0px solid #0555FF;[m
+[32m+[m[32m    border-radius: 11px;[m
+[32m+[m[32m    font-size:18px;[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m    height:52px;[m
+[32m+[m[32m    width:410px;[m
+     position:absolute;[m
+     left: 270px;[m
+     top:700px;[m
+[31m-    width:420px;   [m
+[32m+[m[41m    [m
+ }[m
+ .nav-pills .nav-link{[m
+     border-radius:10px;[m
+[1mdiff --git a/login.html b/login.html[m
+[1mindex 1f77ce0..9d6f096 100644[m
+[1m--- a/login.html[m
+[1m+++ b/login.html[m
+[36m@@ -25,11 +25,7 @@[m
+         <div class="welcome">[m
+             <b>Welcome Back!</b>[m
+         </div>[m
+[31m-        <ul class="nav nav-pills">[m
+[31m-            <li  class="login">[m
+[31m-               <a style="padding-right:60px;padding-left:60px;padding-top:15px;padding-bottom:15px;font-weight:bold;font-size:20px;" class="nav-link active" href="#">Login</a>[m
+[31m-            </li>[m
+[31m-                </ul>[m
+[32m+[m[41m        [m
+                 [m
+                 <form>[m
+ [m
+[36m@@ -47,6 +43,10 @@[m
+                         <img class="göz" src="goz.png">  [m
+                     </div>[m
+ [m
+[32m+[m[41m                    [m
+[32m+[m[32m                    <button type="submit" class="btn btn-primary btn-style">Login</button>[m
+[32m+[m[41m                    [m
+[32m+[m[41m                [m
+                     </form>[m
+                     <div class="forgetpsw">[m
+                     <a class="forget" href="#">Forget Password?</a>[m

@@ -1,8 +1,7 @@
 .zemin {
     
     background-color:#FFFFFF;
-    height:10000px;
-    width:10000px;
+    
 }
 .logo {
     top:60px;
@@ -21,12 +20,17 @@
 	top:335px;
 	position:absolute;
 }
-.login{
-    text-align: center;
+.btn-style{
+    border: 0px solid #0555FF;
+    border-radius: 11px;
+    font-size:18px;
+    font-weight: bold;
+    height:52px;
+    width:410px;
     position:absolute;
     left: 270px;
     top:700px;
-    width:420px;   
+    
 }
 .nav-pills .nav-link{
     border-radius:10px;
