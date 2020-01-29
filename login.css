@@ -10,7 +10,7 @@
     position: absolute;
 }
 .screen {
-    top:260px;
+    top:270px;
     left:900px;
     position: absolute;
 }
@@ -26,6 +26,62 @@
     position:absolute;
     left: 270px;
     top:700px;
-    width:400px;
-   
+    width:420px;   
+}
+.nav-pills .nav-link{
+    border-radius:10px;
+}
+.form-group{
+    height:54px;
+    width:390px;
+    position: absolute;
+    left: 270px;
+    top: 450px;
+    
+}
+.form-control{
+    border: 2px solid rgba(28,110,164,0.13);
+border-radius: 13px;
+    box-sizing:content-box;
+}
+.password{
+    height:54px;
+    width:390px;
+    position: absolute;
+    left: 270px;
+    top: 560px;
+}
+.form-group :hover {
+    border: 2px solid #009EDB;
+}
+.password :hover{
+    border: 2px solid #009EDB;
+}
+.göz{
+    position: absolute;
+    left:319px;
+    top:288px;
+}
+.forget{
+    top:640px;
+    left:420px;
+    position: absolute;
+    color:#79757D;
+    text-decoration:underline;
+}
+.forgetpsw a:hover{
+    color:#00A8F1;
+}
+.dha{
+    top:795px;
+    left:260px;
+    position: absolute;
+}
+.sign{
+    top:795px;
+    left:438px;
+    position: absolute;
+}
+.sign a:hover{
+   color:#00A8F1;
 }
