@@ -1,3 +1,28 @@
-h1{
-    color: blue;
+a {
+  font-size: 21px;
+  color: #1e266d;
+}
+li {
+  list-style-type: none;
+  padding-bottom: 40px;
+}
+.iconlar {
+  position: absolute;
+  left: 110px;
+  top: 150px;
+}
+li a:hover {
+  color: cornflowerblue;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 125px;
+}
+.arama {
+  position: absolute;
+  left: 200px;
+  top: 25px;
+  color: black;
+  font-size: 25px;
 }
