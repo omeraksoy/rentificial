@@ -1,0 +1,12 @@
+git init = dosyayı git dosyası yapma
+pwd = terminalin mevcut konumu
+ls = listeme
+cd = gitmek istediğimiz dosya
+ 
+git add . = dosyaları git'e eklemekg
+git comit -m "" = dosyaları eklemek ve bir yorum eklemek
+git log = commit'leri kontrol etmek  
+git diff = değişiklikleri kontrol etmek
+git rm = dosya silmek 
+git remote add x link = github bağlantısı eklemek
+git push -u x = githuba göndermek 
